@@ -9,6 +9,9 @@ input {
     height: 40px;
     width: 320px;
     border: 8px;
+    font-size: large;
+    font-weight: bolder;
+    text-align: end;
     border-radius: 8px;
     border-style: inset;
     background-color: beige;
