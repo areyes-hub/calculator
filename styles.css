@@ -9,6 +9,9 @@ body {
     height: 40px;
     width: 320px;
     border: 8px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
     font-size: large;
     font-weight: bolder;
     text-align: end;
