@@ -49,6 +49,13 @@ function operate() {
         calcInput.textContent += 9;
         expression += 9;
     });
+
+    let point = document.querySelector(".btn-point");
+    point.addEventListener("click", () => {
+        calcInput.textContent += ".";
+        expression += ".";
+    });
+
     let zero = document.querySelector(".btn-0");
     zero.addEventListener("click", () => {
         calcInput.textContent += 0;
