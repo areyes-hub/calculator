@@ -62,7 +62,7 @@ body {
 }
 
 .oper-btn {
-    color: blue;
+    color: red;
     font-size: larger;
     font-weight: bolder;
     border-radius: 20px;
@@ -85,6 +85,17 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     width: 64px;
     height: 395px;
+}
+
+.btn-add {
+    height: 112px;
+    width: 56px;
+    margin-bottom: 10px;
+}
+
+.btn-clear {
+    color: darkslategray;
 }
